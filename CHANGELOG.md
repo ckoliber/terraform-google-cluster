@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/ckoliber/terraform-google-cluster/compare/1.6.0...1.7.0) (2025-07-26)
+
+
+### Features
+
+* transfer project from cktf to ckoliber ([debc256](https://github.com/ckoliber/terraform-google-cluster/commit/debc256750e9b204fc3c395b28e700e2dfb34d99))
+
 # [1.6.0](https://github.com/ckoliber/terraform-google-cluster/compare/1.5.1...1.6.0) (2025-07-17)
 
 
