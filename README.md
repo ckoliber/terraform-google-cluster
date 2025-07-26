@@ -1,8 +1,8 @@
 # Terraform Google Cluster
 
-![pipeline](https://github.com/cktf/terraform-google-cluster/actions/workflows/ci.yml/badge.svg)
-![release](https://img.shields.io/github/v/release/cktf/terraform-google-cluster?display_name=tag)
-![license](https://img.shields.io/github/license/cktf/terraform-google-cluster)
+![pipeline](https://github.com/ckoliber/terraform-google-cluster/actions/workflows/ci.yml/badge.svg)
+![release](https://img.shields.io/github/v/release/ckoliber/terraform-google-cluster?display_name=tag)
+![license](https://img.shields.io/github/license/ckoliber/terraform-google-cluster)
 
 General-purpose cluster provisioner for Google Cloud, suitable for configuring workload managers like Swarm, Kubernetes, or Nomad, supporting groups of servers and load balancers.
 
@@ -18,7 +18,7 @@ terraform init
 
 ```hcl
 module "cluster" {
-  source = "cktf/cluster/google"
+  source = "ckoliber/cluster/google"
 
   name        = "mycluster"
   public_key  = "<REDACTED>"
